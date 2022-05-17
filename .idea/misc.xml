@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/background_notification.xml" value="0.103" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/boderradius.xml" value="0.1785" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/custom_input.xml" value="0.184" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/elipse.xml" value="0.184" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/fade_in.xml" value="0.2265" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/googlexml.xml" value="0.1785" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/ic_menu.xml" value="0.1785" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/itemhistory.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/logo.xml" value="0.184" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/maincontent.xml" value="0.184" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/toolbar_bg.xml" value="0.1785" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/drawable/top.xml" value="0.2265" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/font/pdffont.xml" value="0.2015625" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_capture.xml" value="0.17552083333333332" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_feedbackactivity.xml" value="0.17552083333333332" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/crop_activity.xml" value="0.17552083333333332" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/edittext_activity.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/fragment_about.xml" value="0.17552083333333332" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/fragment_chart.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/fragment_history.xml" value="0.17561229807191245" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/fragment_list.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/fragment_user.xml" value="0.17552083333333332" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/item_notification.xml" value="0.16666666666666666" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/ocrview_activity.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/layout/select_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/PROJECT/Android-Train/PDF/app/src/main/res/xml/network_scurity.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

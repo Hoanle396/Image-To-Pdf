@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PDF</string>
+    <string name="client_google">108142908164-mukllpe86vm9pqaabkbv0vnvkjr5ep5s.apps.googleusercontent.com</string>
+    <string name="welcome_to">Welcome \nto \nPDF Convert\n</string>
+</resources>

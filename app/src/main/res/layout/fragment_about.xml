@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".activity.AboutFragment">
+    <View
+        android:id="@+id/ellipse1"
+        android:layout_width="193dp"
+        android:layout_height="186dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-68dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-54dp"
+        android:background="@drawable/elipse"
+        />
+
+
+    <View
+        android:id="@+id/ellipse2"
+        android:layout_width="195.03dp"
+        android:layout_height="167dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-76.03dp"
+        android:background="@drawable/elipse"
+        />
+
+    <View
+        android:id="@+id/image_1"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="299dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/logo" />
+    <TextView
+        android:id="@+id/gioithieu"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:text="Giới Thiệu"
+        android:textAppearance="@style/ch_p_h_nh_n"
+        android:gravity="center_horizontal|top"
+        />
+    <TextView
+        android:id="@+id/file"
+        android:layout_width="350dp"
+        android:layout_height="135dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="Chọn file ảnh cần chuyển hoặc chọn icon chụp ảnh để  ấn nút ‘Tạo PDF' để chuyển file ảnh sang PDF."
+        android:textAppearance="@style/text"
+        android:gravity="center_horizontal|top"
+        />
+    <TextView
+        android:id="@+id/quatrinh"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Quá trình chuyển JPG sang PDF rất nhanh, đơn giản và dễ dùng. Bạn không cần có kinh nghiệm mà sẽ vẫn có thể làm."
+        android:textAppearance="@style/text"
+        android:gravity="center_horizontal|top"
+        />
+
+</RelativeLayout>
