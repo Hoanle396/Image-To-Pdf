@@ -76,7 +76,7 @@
         android:fontFamily="@font/trirong_bold_italic"
         android:gravity="center"
         android:onClick="login"
-        android:text="Continue with google"
+        android:text="Tiếp tục với google"
         android:textSize="14sp"
         android:textColor="@color/main"
         app:cornerRadius="50dp"
@@ -94,117 +94,6 @@
         android:linksClickable="true"
         android:text="Điều khoản sử dụng?"
         android:textSize="14dp" />
-    <!--    <LinearLayout-->
-<!--        android:id="@+id/container"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:orientation="vertical">-->
 
-<!--        <RelativeLayout-->
-<!--            android:id="@+id/toolbar_background_layout"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="155dp"-->
-<!--            android:background="@drawable/toolbar_bg">-->
-
-<!--            <com.google.android.material.appbar.AppBarLayout-->
-<!--                android:id="@+id/appBarLayout"-->
-<!--                android:background="@color/main"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentEnd="true"-->
-<!--                android:layout_alignParentStart="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                app:elevation="0dp"-->
-<!--                android:paddingVertical="7.5dp"/>-->
-<!--            <View-->
-<!--                android:id="@+id/ellipse1"-->
-<!--                android:layout_width="193dp"-->
-<!--                android:layout_height="186dp"-->
-<!--                android:layout_alignParentLeft="true"-->
-<!--                android:layout_marginLeft="-68dp"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginTop="-84dp"-->
-<!--                android:background="@drawable/elipse"-->
-<!--                />-->
-
-
-<!--            <View-->
-<!--                android:id="@+id/ellipse2"-->
-<!--                android:layout_width="195.03dp"-->
-<!--                android:layout_height="167dp"-->
-<!--                android:layout_alignParentLeft="true"-->
-<!--                android:layout_marginLeft="29dp"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_marginTop="-106.03dp"-->
-<!--                android:background="@drawable/elipse"-->
-<!--                />-->
-
-<!--        </RelativeLayout>-->
-
-<!--        <com.google.android.material.card.MaterialCardView-->
-<!--            android:id="@+id/content"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_marginTop="-50dp"-->
-<!--            android:layout_marginBottom="-30dp"-->
-<!--            android:paddingTop="20dp"-->
-<!--            app:cardCornerRadius="50dp"-->
-<!--            app:cardElevation="0dp"-->
-<!--            app:contentPaddingBottom="30dp">-->
-
-
-
-<!--            <ImageView-->
-<!--                android:id="@+id/logo"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:layout_centerHorizontal="true"-->
-<!--                android:layout_marginTop="50dp"-->
-<!--                app:srcCompat="@drawable/logo_big" />-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/welcome_to_"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_alignParentLeft="true"-->
-<!--                android:layout_alignParentTop="true"-->
-<!--                android:layout_alignParentRight="true"-->
-<!--                android:layout_alignParentBottom="true"-->
-<!--                android:layout_marginTop="220dp"-->
-<!--                android:fontFamily="@font/trirong_bold_italic"-->
-<!--                android:gravity="center_horizontal|top"-->
-<!--                android:lineHeight="28sp"-->
-<!--                android:text="@string/welcome_to"-->
-<!--                android:textAppearance="@style/welcome_to" />-->
-
-<!--            <Button-->
-<!--                android:id="@+id/register"-->
-<!--                android:layout_width="300dp"-->
-<!--                android:layout_height="60dp"-->
-<!--                android:layout_gravity="center"-->
-<!--                android:layout_marginTop="129dp"-->
-<!--                android:backgroundTint="@color/main"-->
-<!--                android:drawableLeft="@drawable/googlexml"-->
-<!--                android:fontFamily="@font/trirong_bold_italic"-->
-<!--                android:gravity="center_horizontal|center"-->
-<!--                android:onClick="login"-->
-<!--                android:text="Continue with google"-->
-<!--                android:textSize="14sp"-->
-<!--                app:cornerRadius="50dp"-->
-<!--                tools:ignore="OnClick" />-->
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="Terms of use?"-->
-<!--                android:fontFamily="@font/trirong_bold_italic"-->
-<!--                android:textSize="14dp"-->
-<!--                android:autoLink="web"-->
-<!--                android:id="@+id/infoTxtCredits"-->
-<!--                android:layout_centerInParent="true"-->
-<!--                android:linksClickable="true"-->
-<!--                android:layout_marginTop="300dp"-->
-<!--                android:layout_gravity="center"/>-->
-<!--        </com.google.android.material.card.MaterialCardView>-->
-<!--    </LinearLayout>-->
 
 </RelativeLayout>

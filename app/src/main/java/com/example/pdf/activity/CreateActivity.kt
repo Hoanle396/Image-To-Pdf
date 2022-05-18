@@ -68,42 +68,13 @@ class CreateActivity:AppCompatActivity() {
             db.addName(Pdfhistory(directoryPath))
             showNotification()
         } catch (e: Exception) {
-            Toast.makeText(this,"Failed to create PDF", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Tạo tập tin PDF thất bại!", Toast.LENGTH_SHORT).show()
         }
     }
-    private fun  createPdf(bitmap: Bitmap){
 
-        // Create a PdfDocument with a page of the same size as the image
-        val document: PdfDocument = PdfDocument()
-        val pageInfo: PdfDocument.PageInfo  = Builder(bitmap.width, bitmap.height, 1).create()
-        val page: PdfDocument.Page  = document.startPage(pageInfo)
-        val canvas: Canvas = page.canvas
-        canvas.drawBitmap(bitmap, 0f, 0f, null)
-
-        // Draw the bitmap onto the page
-
-        document.finishPage(page)
-
-
-        try {
-            val directoryPath: String  = Environment.getExternalStoragePublicDirectory(PATH).toString()+ "/"+Calendar.getInstance().time+"_"+(1000..9999).random().toString()+".pdf"
-            document.writeTo( FileOutputStream(directoryPath ))
-            document.close()
-            PDFView?.fromUri(Uri.parse(directoryPath))
-                ?.defaultPage(1)
-                ?.enableSwipe(true)
-                ?.load()
-            val db = DBHelper(this, null)
-            db.addName(Pdfhistory(directoryPath))
-            showNotification()
-        } catch (e: Exception) {
-            Toast.makeText(this,"Failed to create PDF", Toast.LENGTH_SHORT).show()
-        }
-
-    }
     private  fun  showNotification(){
         var title="PDF Convert"
-        var message="You have successfully created a PDF document"
+        var message="Bạn đã tạo mới thành công 1 tập tin PDF"
         var builder = NotificationCompat.Builder(this, AppNotification.CHANNEL_1_ID)
             .setSmallIcon(R.drawable.pdflogo)
             .setContentTitle(title)

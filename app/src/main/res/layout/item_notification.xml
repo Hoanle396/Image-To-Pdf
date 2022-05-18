@@ -25,21 +25,18 @@
                 android:layout_width="100pt"
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
-                android:text="TextView"
                 android:textSize="20sp" />
             <TextView
                 android:id="@+id/txttime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:text="TextView"
                 android:textSize="14sp" />
             </RelativeLayout>
             <TextView
                 android:id="@+id/txtmessage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0"
-                android:text="TextView" />
+                android:layout_weight="0" />
         </LinearLayout>
 </LinearLayout>

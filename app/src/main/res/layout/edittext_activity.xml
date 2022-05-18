@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@color/main"
-        android:text="Edit text"
+        android:text="Chỉnh sửa văn bản"
         android:textColor="#ffffff"
         android:id="@+id/tv_header"
         android:textSize="18dp"

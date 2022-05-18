@@ -63,13 +63,13 @@ class createPDFactivity:AppCompatActivity() {
 
         }
         catch (e:Exception){
-            Toast.makeText(this,"Failed to create PDF", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"Tạo tập tin PDF thất bại!", Toast.LENGTH_SHORT).show()
         }
 
     }
     private  fun  showNotification(){
         var title="PDF Convert"
-        var message="You have successfully created a PDF document"
+        var message="Bạn đã tạo mới thành công 1 tập tin PDF"
         var builder = NotificationCompat.Builder(this, AppNotification.CHANNEL_1_ID)
             .setSmallIcon(R.drawable.pdflogo)
             .setContentTitle(title)

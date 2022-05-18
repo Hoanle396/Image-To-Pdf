@@ -48,7 +48,7 @@ class UploadUtility(var activity: Activity) {
 
                 if (response.isSuccessful) {
                     Log.d("File upload","success, path: $serverUploadDirectoryPath$fileName")
-                    showToast("File OCR successfully at $serverUploadDirectoryPath")
+                    showToast("File OCR thành công")
 
                     val gson= Gson()
                     val res:OCRResponse=gson.fromJson(response.body?.string(), OCRResponse::class.java)
@@ -59,12 +59,11 @@ class UploadUtility(var activity: Activity) {
                 }
                 else{
                     Log.e("Server Error", "code 500")
-                    showToast("File OCR failed please try again")
+                    showToast("File OCR thất bại! Hãy thử lại sau")
                 }
             } catch (ex: Exception) {
                 Log.e("Error ", ex.message.toString() )
-                Log.e("File upload", "failed")
-                showToast("File OCR failed please try again")
+                showToast("File OCR thất bại! Hãy thử lại sau")
             }
             toggleProgressDialog(false)
         }.start()
@@ -89,7 +88,7 @@ class UploadUtility(var activity: Activity) {
     private fun toggleProgressDialog(show: Boolean) {
         activity.runOnUiThread {
             if (show) {
-                dialog = ProgressDialog.show(activity, "", "Waiting to OCR file...", true)
+                dialog = ProgressDialog.show(activity, "", "Chờ đợi OCR tập tin...", true)
             } else {
                 dialog?.dismiss()
             }

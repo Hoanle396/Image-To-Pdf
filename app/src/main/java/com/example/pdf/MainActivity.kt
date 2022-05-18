@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
             .requestIdToken(getString(R.string.client_google))
             .requestEmail()
             .build()
-
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
     }
 

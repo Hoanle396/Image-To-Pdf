@@ -29,27 +29,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/history"
-            android:text="history" />
+            android:text="Lịch Sử" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/newcap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/add"
-            android:text="new" />
+            android:text="Tạo Mới" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/info"
-            android:text="about" />
+            android:text="Thông Tin" />
         <com.google.android.material.tabs.TabItem
             android:id="@+id/user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:icon="@drawable/user"
-            android:text="user" />
+            android:text="Khách" />
 
     </com.google.android.material.tabs.TabLayout>
 

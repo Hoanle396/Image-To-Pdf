@@ -57,34 +57,7 @@ class CaptureFragment : Fragment() {
 //        pickImage.clear()
     }
     private fun selectImage() {
-        // Creating AlertDialog
-//        val choice = arrayOf<CharSequence>("Take Photo", "Choose from Gallery", "Cancel")
-//        val myAlertDialog: AlertDialog.Builder = AlertDialog.Builder(activity)
-//        myAlertDialog.setTitle("Select Image")
-//        myAlertDialog.setItems(choice, DialogInterface.OnClickListener { dialog, item ->
-//            when {
-//                choice[item] == "Choose from Gallery" -> {
-//                    val pickFromGallery = Intent(Intent.ACTION_GET_CONTENT, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
-//                    pickFromGallery.type = "image/*"
-//                    startActivityForResult(pickFromGallery, 1)
-//
-//                }
-//                choice[item] == "Take Photo" -> {
-//
-//                    var cameraPicture = Intent(MediaStore.ACTION_IMAGE_CAPTURE_SECURE)
-//                    try {
-//                        startActivityForResult(cameraPicture, 0)
-//                    }
-//                   catch (e:Exception){
-//                       Toast.makeText(activity,"Can't access camera",Toast.LENGTH_SHORT).show()
-//                   }
-//                }
-//                choice[item] == "Cancel" -> {
-//                    myAlertDialog.setCancelable(true)
-//                }
-//            }
-//        })
-//        myAlertDialog.show()
+
         CropImage.activity()
             .setGuidelines(CropImageView.Guidelines.ON)
             .start(requireContext(), this);
@@ -94,30 +67,7 @@ class CaptureFragment : Fragment() {
 
         if (resultCode != Activity.RESULT_CANCELED) {
             when (requestCode) {
-//                0 -> if (resultCode == Activity.RESULT_OK && data != null) {
-//
-//                    val imageCapture = data.extras!!["data"] as Bitmap?
-//                    val bytes = ByteArrayOutputStream()
-//                    imageCapture?.compress(Bitmap.CompressFormat.JPEG, 100, bytes)
-//                    val path = Uri.parse(
-//                        MediaStore
-//                        .Images
-//                        .Media
-//                        .insertImage(context?.contentResolver, imageCapture, Calendar.getInstance().get(Calendar.MILLISECOND).toString(), null)
-//                        .toString())
-//                    CropImage.activity(path)
-//                        .start(requireContext(), this);
-////                    imageView.setImageBitmap(imageCapture)
-//
-//                }
-//                1 -> if (resultCode == Activity.RESULT_OK && data != null) {
-//                    val uri= data.data
-//                    CropImage.activity(uri)
-//                        .start(requireContext(), this);
-////                    val input = data.data?.let { activity?.contentResolver?.openInputStream(it) }
-////                    imageView.setImageBitmap(BitmapFactory.decodeStream(input,null,BitmapFactory.Options()))
-////                    nextStep.text="Next >>"
-//                }
+
                 CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE->{
                     val result = CropImage.getActivityResult(data)
                     if (resultCode === Activity.RESULT_OK) {
@@ -153,7 +103,7 @@ class CaptureFragment : Fragment() {
                         if (key!=""||key!=null){
                             UploadUtility(this.requireActivity()).uploadFile(file,key = key)
                         }
-                        pickImage.clear()
+//                        pickImage.clear()
                     }
                     .setNegativeButton("không") { dialog, which ->
                         var intent=Intent(this.activity,CreateActivity::class.java)

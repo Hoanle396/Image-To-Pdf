@@ -34,36 +34,52 @@ android {
 
 dependencies {
 
-
+    //glide load ảnh
     implementation 'com.github.bumptech.glide:glide:4.13.0'
+    //sqllite
     implementation("androidx.sqlite:sqlite:2.2.0")
     implementation("androidx.sqlite:sqlite-ktx:2.2.0")
     implementation("androidx.sqlite:sqlite-framework:2.2.0")
+    //createpdf
     implementation 'com.tom_roush:pdfbox-android:1.8.10.1'
 
     //noinspection GradleDependency
+    //crop image
     api 'com.theartofdev.edmodo:android-image-cropper:2.7.0'
+
+
+    //load image
     implementation 'com.squareup.picasso:picasso:2.5.2'
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-
+//fire base
     implementation 'com.google.firebase:firebase-messaging:17.0.0'
 
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //splash screen
     implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
     implementation 'com.google.android.gms:play-services-auth:20.1.0'
+    //request to serve
     implementation 'com.android.volley:volley-cronet:1.2.1'
     implementation 'com.android.volley:volley:1.2.1'
+
+    //ocr libary trước dùng thử sau đó tự tạo server riêng
     implementation 'com.rmtheis:tess-two:6.0.4'
+    //request to server
     implementation 'com.squareup.okhttp3:okhttp:4.7.2'
+    //pdf view
     implementation 'com.github.barteksc:android-pdf-viewer:2.0.3'
+    //gson load json
     implementation 'com.google.code.gson:gson:2.9.0'
+    //text - to pdf
     implementation 'com.itextpdf:itextpdf:5.0.6'
 
 

@@ -41,7 +41,6 @@ class HistoryFragment : Fragment() {
             while(cursor.moveToNext()){
                 list.add(Pdfhistory(cursor.getString(cursor.getColumnIndex(DBHelper.NAME_COl))))
             }
-
             cursor.close()
         }
 

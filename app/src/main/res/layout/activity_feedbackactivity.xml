@@ -132,7 +132,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
-        android:backgroundTint="#afacac"
+        android:backgroundTint="@color/field"
         app:cornerRadius="25dp"
         />
 </RelativeLayout>
